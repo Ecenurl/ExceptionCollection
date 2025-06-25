@@ -1,18 +1,43 @@
-## Getting Started
+📦 1. ArrayList Nedir?
+ArrayList, dinamik boyutlu dizidir. Elemanları sırayla tutar, ekledikçe genişler.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🔑 Özellikleri:
+Elemanlar sırayla (index ile) saklanır.
 
-## Folder Structure
+Elemanlar tekrarlanabilir.
 
-The workspace contains two folders by default, where:
+Boyutu dinamik olarak artar/azalır.
+🔑 Kullanışlı Metotlar:
+.add() → Eleman ekler
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+.get(index) → İstediğin sıradaki elemanı alır
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+.remove(index) → Elemanı siler
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+.size() → Eleman sayısını verir
 
-## Dependency Management
+.contains() → Eleman var mı diye bakar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🔐 2. HashMap Nedir?
+HashMap, anahtar-değer (key-value) çiftlerini saklayan bir yapıdır. Dizinin aksine, her elemanın bir anahtarı (key) vardır.
+
+🔑 Özellikleri:
+Sıra önemli değildir.
+
+Her key benzersiz olmalı.
+
+Değere erişmek için key kullanılır
+
+
+🔑 HashMap Metotları:
+.put(key, value) → Yeni veri ekler
+
+.get(key) → Anahtarın değerini döner
+
+.remove(key) → Anahtarı siler
+
+.containsKey(key) → Key var mı diye bakar
+
+.keySet() → Tüm key’leri verir
+
+.values() → Tüm value’ları verir
